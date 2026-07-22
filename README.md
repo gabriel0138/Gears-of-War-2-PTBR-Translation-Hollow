@@ -20,10 +20,33 @@ Este pacote contém a tradução completa em Português do Brasil e otimizaçõe
   - **TimeBetweenPurgingPendingKillObjects=120**: Garbage Collector otimizado a cada 2 minutos, zerando engasgos em tiroteios.
   - Sombras em alta resolução (4096px) e filtragem anisotrópica 16x.
 
-- **Escala de Legendas e UI**:
-  - **SubtitleFontScale=2.2**: Aumento agressivo para visibilidade perfeita em resoluções 1080p, 1440p e 4K.
-  - **UIScaleMultiplier=1.8**: Proporção de menus e diálogos ampliada.
-  - Mapeamento de fontes de alta resolução (`WarfareFonts_Euro24` / `WarfareFonts_Chrom24`).
+---
+
+## 🚧 Status Atual & Itens Pendentes (Work in Progress)
+
+Trabalhamos continuamente para entregar a melhor experiência possível. Abaixo estão os pontos que ainda estão em desenvolvimento:
+
+1. **Página de Conquistas do Diário de Guerra (War Journal)**:
+   - A aba interna de visualização do Diário de Guerra in-game ainda possui partes do layout da interface pendentes de tradução visual.
+
+2. **Escala / Tamanho das Legendas em Altas Resoluções (1080p, 1440p, 4K, 16:10)**:
+   - **O Problema**: A interface original do jogo roda sobre caixas do Autodesk Scaleform (GFx) ancoradas em 720p.
+   - **O que já tentamos**:
+     - Alteração dos parâmetros `SubtitleFontScale`, `UIScaleMultiplier` e `bScaleSubtitles` em todos os `.ini` (`GearEngine.ini`, `DefaultEngine.ini`, `BaseEngine.ini`).
+     - Aplicado o bloqueio de atributo 'Apenas Leitura' (`IsReadOnly`) para impedir resets pelo launcher.
+     - Redirecionamento de vetores de fontes em `GearGameUI.int` para fontes de alta resolução (`WarfareFonts_Euro24` / `Chrom24`).
+     - Injeção direta de argumentos de linha de comando (`-SubtitleFontScale=2.5`, `-UIScaleMultiplier=1.8`) no processo `GoW2Hollow.exe`.
+   - **Status**: O motor da UE3 ignora a redimensionação dinâmica do texto sem a modificação direta nos pacotes `.upk`/`.gfx` de interface. Continuaremos investigando soluções e patches para contornar essa limitação técnica.
+
+---
+
+## 📢 Como Ajudar / Reportar Bugs
+
+Este projeto é feito para a comunidade! Se você encontrar qualquer erro de digitação, fala não traduzida, bug visual ou falha de formatação:
+
+1. Acesse a aba **[Issues](../../issues)** no repositório.
+2. Clique em **New Issue** e descreva o problema (se possível, anexe uma captura de tela e o capítulo em que o erro ocorreu).
+3. Atualizações e novas correções serão lançadas periodicamente nesta página.
 
 ---
 
