@@ -40,6 +40,19 @@ Trabalhamos continuamente para entregar a melhor experiência possível. Abaixo 
 
 ---
 
+## ☕ Pague um Café para o Dev! (Apoie o Projeto)
+
+Traduzir milhares de linhas de diálogo, revisar colecionáveis, homologar conquistas e passar raiva com os arquivos `.ini` da Unreal Engine 3 consome **MUITO café**! ☕🤪
+
+Se este projeto te ajudou a jogar Gears of War 2 100% em português e com performance de ponta, considere mandar **qualquer valor** de doação para fortalecer o desenvolvimento. Qualquer 1 real já paga um café ou um energético para me manter acordado caçando bugs!
+
+- **Chave Pix (Telefone)**: `13 996259880`  
+- **Nome**: Gabriel dos Santos Alves
+
+*Toda contribuição é super bem-vinda e me motiva a continuar atualizando a tradução! Valeu pelo apoio, Gear!* 👊🔥
+
+---
+
 ## 📢 Como Ajudar / Reportar Bugs
 
 Este projeto é feito para a comunidade! Se você encontrar qualquer erro de digitação, fala não traduzida, bug visual ou falha de formatação:
