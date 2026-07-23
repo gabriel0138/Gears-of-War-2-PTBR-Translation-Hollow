@@ -6,8 +6,9 @@ Este pacote contém a tradução completa em Português do Brasil e otimizaçõe
 
 ## 🌟 Conteúdo do Pacote
 
-- **Tradução 100% PT-BR**:
+- **Tradução 100% PT-BR (Versão 2.0)**:
   - Legendas de vídeos, cinematics e falas de rádio de 100% dos personagens (Marcus, Dom, Baird, Cole, Anya, Hoffman, Carmine, etc.).
+  - **Pacote Completo de Válvulas e Chatter de Combate (`Sounds/INT`)**: Áudio e falas em jogo integradas para Marcus, Dom, Baird, Cole, Hoffman, Carmine, Dizzy, Tai, Franklin e Locusts.
   - 41 parágrafos e documentos de colecionáveis traduzidos.
   - 50 conquistas e Diário de Guerra sincronizados em PT-BR.
   - Mensagens de interface, avisos de sistema e menus 100% em Português do Brasil.
